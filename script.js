@@ -29,8 +29,8 @@ function submit(){
         let questionDiv = document.createElement("div")
         let answerDiv = document.createElement("div")
 
-        questionDiv.innerHTML = `<div class="question"><div class="logo"><img src="/image/user-logo.jpg"></div><span class="text">${question}</span></div>`
-        answerDiv.innerHTML = `<div class="answer"><div class="logo"><img src="/image/cat-logo.png"></div><span class="text"></span></div>`
+        questionDiv.innerHTML = `<div class="question"><div class="logo"><img src="image/user-logo.jpg"></div><span class="text">${question}</span></div>`
+        answerDiv.innerHTML = `<div class="answer"><div class="logo"><img src="image/cat-logo.png"></div><span class="text"></span></div>`
 
         qusAnsDiv.appendChild(questionDiv)
         qusAnsDiv.appendChild(answerDiv)
